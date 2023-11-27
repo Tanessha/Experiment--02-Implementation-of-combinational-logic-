@@ -86,7 +86,7 @@ endmodule
 
 
 ## Timing Diagram:
-![image](https://github.com/Tanessha/Experiment--02-Implementation-of-combinational-logic-/assets/140876194/8c9a6b2b-0cdb-46a4-92d3-ecb9faa9e8cf)
+![Screenshot 2023-11-24 160452](https://github.com/Tanessha/Experiment--02-Implementation-of-combinational-logic-/assets/140876194/b8f4670f-2034-4df6-bf55-73826ef1c3c4)
 
 
 ## Result:
