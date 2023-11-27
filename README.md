@@ -55,31 +55,31 @@ waveform
 
 ## Program:
 
-module experiment2(A,B,C,D,F1);
+module combinationalcircuit(a,b,c,d,f1);\
 
-input A,B,C,D;
+input a,b,c,d;
 
-output F1;
+output f1;
 
 wire x1,x2,x3,x4,x5;
 
-assign x1=(~A)&(~B)&(~C)&(~C);
+assign x1=(~a)&(~b)&(~c)&(~d);
 
-assign x2=(A)&(~D)&(~D);
+assign x2=(a)&(~c)&(~d);
 
-assign x3=(~B)&(C)&( ~D);
+assign x3=(~b)&(c)&(~d);
 
-assign x4=(~A)&(B)&(C)&(D);
+assign x4=(~a)&(b)&(c)&(d);
 
-assign x5=(B)&(~C)&(~D);
+assign x5=(b)&(~c)&(d);
 
-assign F1=x1|x2|x3|x4|x5;
+assign f1=x1|x2|x3|x4|x5;
 
-endmodule
+endmodule 
 
 ## RTL realization
 
-![Screenshot 2023-11-20 153752](https://github.com/Tanessha/Experiment--02-Implementation-of-combinational-logic-/assets/140876194/e6bf6591-9a7d-4132-a6ef-bb1a092c1528)
+![image](https://github.com/Tanessha/Experiment--02-Implementation-of-combinational-logic-/assets/140876194/c065fc35-bfdb-4f36-ae80-a7ee94a00b61)
 
 ## Truth table:
 ![Screenshot 2023-11-25 083258](https://github.com/Tanessha/Experiment--02-Implementation-of-combinational-logic-/assets/140876194/9c776fc0-ddf7-4aaa-878d-ce110068edca)
